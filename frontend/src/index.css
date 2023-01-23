@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+h4 {
+    cursor: pointer;
+}
+
+.header {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.folder-wrapper {
+    padding: 0px 10px;
+}
+
+.folder-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.folder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 119px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.folder span {
+    word-break: break-all;
+}
